@@ -1,0 +1,108 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: VOLTGRID
+          - generic [ref=e14]: v2.4
+        - paragraph [ref=e15]:
+          - generic [ref=e16]: "SCADA Node #05"
+          - generic [ref=e17]: •
+          - generic [ref=e18]: DLF Cyber Feeder
+      - generic [ref=e19]:
+        - generic [ref=e20]: Simulated Telemetry
+        - generic [ref=e23]: GRID STABLE • 230V
+        - button "Simulate Grid Overload" [ref=e28] [cursor=pointer]
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - button "EV Driver" [ref=e34]
+          - button "Grid SCADA" [ref=e35]
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: H
+            - generic [ref=e39]:
+              - paragraph [ref=e40]: Hiten Patel
+              - paragraph [ref=e41]: user
+          - button "Log Out" [ref=e42]
+  - navigation [ref=e46]:
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - button "User Overview" [ref=e49]
+        - button "Find Stations" [ref=e56]
+        - button "Active Charging 74%" [ref=e61]:
+          - generic [ref=e66]: Active Charging
+          - generic [ref=e67]: 74%
+        - button "Session History" [ref=e68]
+      - generic [ref=e74]: "Grid Aware: Normal Rate"
+  - main [ref=e77]:
+    - generic [ref=e79]:
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e83]: Connected to VoltGrid Intelligent Mobility Network
+          - heading "Good evening, Hiten" [level=1] [ref=e86]
+          - paragraph [ref=e87]: Your registered vehicle Tesla Model Y Dual Motor is recognized at SCADA nodes. Charging power dynamically adjusts to protect electrical grid transformers.
+        - generic [ref=e94]:
+          - paragraph [ref=e95]: DL-01-EV-4092
+          - paragraph [ref=e96]: Tesla Model Y Dual Motor
+      - generic [ref=e97]:
+        - generic [ref=e103]:
+          - text: Grid Conditions Optimal (230V Nominal)
+          - paragraph [ref=e104]: 100% nominal charging rate available across all CCS2 and Type 2 ultra-fast bays.
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - text: "Grid Load:"
+            - generic [ref=e107]: 14.4 A
+          - generic [ref=e108]:
+            - text: "Voltage:"
+            - generic [ref=e109]: 230.1 V
+      - generic [ref=e111]:
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: SESSION IN PROGRESS
+            - generic [ref=e121]: BAY-01 • CyberHub Ultra-Fast Depot
+          - heading "Tesla Model Y Dual Motor" [level=3] [ref=e122]
+          - paragraph [ref=e123]:
+            - text: "Power:"
+            - generic [ref=e124]: 7.2 kW
+            - text: • 38.6 kWh delivered • 18 mins remaining
+        - generic [ref=e125]:
+          - generic [ref=e127]:
+            - generic [ref=e128]: Battery
+            - generic [ref=e129]: 74%
+          - button "View Live Cockpit" [ref=e132] [cursor=pointer]
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - generic [ref=e139]: Nearest Hub
+            - heading "CyberHub Ultra-Fast Depot" [level=4] [ref=e140]
+            - paragraph [ref=e141]: Building 10, DLF Cyber City, Phase II
+            - generic [ref=e142]:
+              - generic [ref=e143]: "Distance: 0.8 km"
+              - generic [ref=e144]: 3 free bays
+          - button "Book Bay at CyberHub" [ref=e145] [cursor=pointer]
+        - generic [ref=e149]:
+          - generic [ref=e150]: Grid Feature
+          - heading "Deadline-Aware Priority" [level=4] [ref=e151]
+          - paragraph [ref=e154]: Need to leave soon? Mark your session as URGENT to guarantee unthrottled maximum charging power even during substation peak stress.
+          - generic [ref=e155]: ✓ Smart scheduler prevents transformer tripping
+        - generic [ref=e156]:
+          - generic [ref=e157]: Clean Energy Feeder
+          - heading "86% Renewable Blend" [level=4] [ref=e158]
+          - paragraph [ref=e162]: "DLF Sector Substation #04 is synchronized with rooftop solar arrays and regional wind turbine feeds for minimal carbon footprint."
+          - generic [ref=e163]: ✓ Offset ~0.82 kg CO₂ per kWh charged
+  - contentinfo [ref=e164]:
+    - generic [ref=e165]:
+      - generic [ref=e166]:
+        - generic [ref=e167]: VOLTGRID
+        - paragraph [ref=e172]: Intelligent Smart Grid & EV Fast-Charging Orchestration. Demonstrating real-time transformer telemetry coupled with deadline-aware load throttling.
+      - generic [ref=e173]:
+        - generic [ref=e174]: "Switch Persona:"
+        - button "EV Driver" [ref=e175] [cursor=pointer]
+        - button "SCADA Operator" [ref=e176] [cursor=pointer]
+        - button "Auth Dialog" [ref=e177] [cursor=pointer]
+    - generic [ref=e178]:
+      - paragraph [ref=e179]:
+        - text: "SCADA Node #05 • Polling:"
+        - code [ref=e180]: http://127.0.0.1:8000/api/telemetry
+        - text: (with local fallback)
+      - paragraph [ref=e181]: Simulated demonstration for B.Tech Major Project • Hiten Patel

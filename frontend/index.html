@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VOLTGRID | Smart Grid & EV Charging Management Platform</title>
+    <meta name="description" content="Connecting real-time electrical grid telemetry with deadline-aware EV fast charging to prevent transformer overload." />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('voltgrid_theme');
+          if (saved === 'dark') {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+          } else {
+            document.documentElement.classList.add('light');
+            document.documentElement.classList.remove('dark');
+          }
+        } catch(e) {
+          document.documentElement.classList.add('light');
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#E8DCC8] text-[#172A46] dark:bg-[#0B1422] dark:text-[#FFF8EA] antialiased min-h-screen selection:bg-[#172A46] selection:text-[#FFF8EA] dark:selection:bg-[#E8DCC8] dark:selection:text-[#0B1422]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
